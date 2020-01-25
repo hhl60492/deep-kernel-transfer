@@ -98,7 +98,7 @@ class GPNet(nn.Module):
             lower, upper = pred.confidence_region() #2 standard deviations above and below the mean
 
             print('Test image', test_people[n], 'pred',
-                  invert_normalize_age(pred.mean.item()), '95% CI[-',
+                  invert_normalize_age(pred.mean.item()), '95% CI[',
                   invert_normalize_age(lower.item()), ',',
                   invert_normalize_age(upper.item()),']', 'target:',
                   invert_normalize_age(y_all[n].item()))
