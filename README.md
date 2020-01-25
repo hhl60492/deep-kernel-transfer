@@ -12,6 +12,8 @@ Modifications incude:
 2. Added AAF Fage/Age Dataset sample and data code
 3. Added GPNet for AAF regression training and testing
 
+*Make sure to install packages in the requirements.txt first*
+
 Instructions for running the GPNet on AAF:  
 Train: python train_regression_AAF.py  
 Test: python test_regression_AAF.py  
