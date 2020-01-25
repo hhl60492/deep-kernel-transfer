@@ -12,6 +12,14 @@ Modifications incude:
 2. Added AAF Fage/Age Dataset sample and data code
 3. Added GPNet for AAF regression training and testing
 
+Instructions for running the GPNet on AAF:
+Train: python train_regression_AAF.py
+Test: python test_regression_AAF.py
+
+You are free to play around with the training and test parameters... however note some options may not work!
+
+---
+
 This repository contains the official pytorch implementation of the paper: 
 
 *"Deep Kernel Transfer in Gaussian Processes for Few-shot Learning" (2019) Patacchiola, Turner, Crowley, and Storkey* [[download paper]](https://arxiv.org/abs/1910.05199)
