@@ -9,7 +9,7 @@ https://github.com/BayesWatch/deep-kernel-transfer
 
 Modifications incude: 
 1. Removed CUDA depedency from PyTorch so GPNet can run on platforms without CUDA/GPU support
-2. Added AAF Fage/Age Dataset sample and data code
+2. Added AAF Face and Age Dataset sample and data loading code
 3. Added GPNet for AAF regression training and testing
 
 The data is in filelists/AAF/ and the AAF GPNet model is in methods/.
