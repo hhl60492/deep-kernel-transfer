@@ -5,7 +5,7 @@
 -->
 
 #### This repo is a fork of the original deep-kernel-transfer repo
-https://github.com/BayesWatch/deep-kernel-transfer/tree/master/filelists/QMUL
+https://github.com/BayesWatch/deep-kernel-transfer
 
 Modifications incude: 
 1. Removed CUDA depedency from PyTorch so GPNet can run on platforms without CUDA/GPU support
