@@ -12,6 +12,8 @@ Modifications incude:
 2. Added AAF Fage/Age Dataset sample and data code
 3. Added GPNet for AAF regression training and testing
 
+The data is in filelists/AAF/ and the AAF GPNet model is in methods/.
+
 *Make sure to install packages in the requirements.txt first*
 
 Instructions for running the GPNet on AAF:  
