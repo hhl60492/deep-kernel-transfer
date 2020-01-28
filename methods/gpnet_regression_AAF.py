@@ -52,7 +52,7 @@ class GPNet(nn.Module):
 
             self.model.set_train_data(inputs=z, targets=labels)
             predictions = self.model(z)
-            loss = -self.mll(predictions, self.model.train_targets)
+            loss = torch.abs(-self.mll(predictions, self.model.train_targets))
 
             loss.backward()
             optimizer.step()
